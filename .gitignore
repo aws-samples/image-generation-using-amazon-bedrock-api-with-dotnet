@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PlayWithBedrockUsingCDK/lambdas/Lambdas/bin
+/PlayWithBedrockUsingCDK/lambdas/Lambdas/obj
+/PlayWithBedrockUsingCDK/src/.vs
+/PlayWithBedrockUsingCDK/src/PlayWithBedrockUsingCdk/bin
+/PlayWithBedrockUsingCDK/src/PlayWithBedrockUsingCdk/obj/Debug/net8.0
+/PlayWithBedrockUsingCDK/src/PlayWithBedrockUsingCdk/obj/Release/net8.0
+/PlayWithBedrockUsingCDK/cdk.out/.cache
+/PlayWithBedrockUsingCDK/cdk.out
+/PlayWithBedrockUsingCDK/src/PlayWithBedrockUsingCdk/obj
