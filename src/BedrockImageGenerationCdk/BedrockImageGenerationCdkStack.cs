@@ -26,8 +26,8 @@ namespace BedrockImageGenerationCdk
                 Runtime = new Runtime("dotnet8", RuntimeFamily.DOTNET_CORE), // To support DOTNET_8 runtime https://github.com/aws/aws-lambda-dotnet/issues/1611,
                 FunctionName = "StableDiffusionXLG1Handler",
                 //Where to get the code
-                Code = Code.FromAsset("lambdas\\Lambdas\\bin\\Debug\\net8.0"),
-                Handler = "Lambdas::Lambdas.Function::StableDiffusionXLG1Handler",
+                Code = Code.FromAsset(".\\src\\TextToImageLambdaFunction\\bin\\Debug\\net8.0"),
+                Handler = "TextToImageLambdaFunction::TextToImageLambdaFunction.Function::StableDiffusionXLG1Handler",
                 Environment = new Dictionary<string, string>
                 {
                     ["ENVIRONMENT"] = environment,
